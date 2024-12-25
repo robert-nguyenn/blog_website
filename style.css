@@ -286,3 +286,41 @@ footer {
   background: var(--color-white);
   color: var(--color-bg);
 }
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer h4 {
+  color: var(--color-white);
+  margin-bottom: 0.6rem;
+}
+
+footer ul li {
+  padding: 0.4rem 0;
+}
+
+footer ul a {
+  opacity: 0.75;
+}
+
+footer ul a:hover {
+  opacity: 1;
+  letter-spacing: 0.2rem;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid var(--color-bg);
+  margin-top: 4rem;
+}
+
+/* =================================== Media Queries (Medium Devices) ================================ */
+
+
+
+
+
+
