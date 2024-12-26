@@ -36,6 +36,7 @@
   appearance: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -583,6 +584,11 @@ input, textarea, select {
   .search__bar-container {
     width: 60%;
   }
+
+  /* ======== General Form ========= */
+  .form__section-container {
+    padding: 3rem;
+  }
 }
 
 /* =================================== Media Queries (Small Devices) ================================ */
@@ -628,6 +634,11 @@ input, textarea, select {
   /* ======== Single Post ========= */
   .singlepost {
     background-color: transparent;
+    padding: 0;
+  }
+
+  /* ======== General Form ========= */
+  .form__section-container {
     padding: 0;
   }
 }
