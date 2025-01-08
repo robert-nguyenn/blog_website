@@ -16,3 +16,21 @@ const closeNav = () => {
 
 openNavBtn.addEventListener('click', openNav);
 closeNavBtn.addEventListener('click', closeNav);
+const hideSidebarBtn = document.querySelector('#hide-sidebar-btn');
+
+// show sidebar on small devices
+const showSidebar = () => {
+  sidebar.style.left = '0'; 
+  showSidebarBtn.style.display = 'none';
+  hideSidebarBtn.style.display = 'inline-block';
+}
+
+// show sidebar on small devices
+const hideSidebar = () => {
+  sidebar.style.left = '-100%'; 
+  showSidebarBtn.style.display = 'inline-block';
+  hideSidebarBtn.style.display = 'none';
+}
+
+showSidebarBTN.addEventListener('click', showSidebar);
+hideSidebarBTN.addEventListener('click', hideSidebar);
