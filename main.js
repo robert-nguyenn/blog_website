@@ -25,7 +25,7 @@ const showSidebar = () => {
   hideSidebarBtn.style.display = 'inline-block';
 }
 
-// show sidebar on small devices
+// hide sidebar on small devices
 const hideSidebar = () => {
   sidebar.style.left = '-100%'; 
   showSidebarBtn.style.display = 'inline-block';
